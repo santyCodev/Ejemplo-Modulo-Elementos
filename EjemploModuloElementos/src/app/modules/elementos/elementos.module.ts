@@ -6,8 +6,7 @@ import { DadoComponent } from './dado/dado.component';
 
 @NgModule({
   declarations: [DadoComponent],
-  imports: [
-    CommonModule
-  ]
+  exports: [DadoComponent],
+  imports: [CommonModule]
 })
 export class ElementosModule { }
